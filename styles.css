@@ -1,23 +1,20 @@
-.navigation {
-    grid-area: navigation;
+.navigation-bar {
+    background-color: #848B79;
+    height: 50px;
 }
 
-.left-column {
-    grid-area: left-column;
+A {
+    color: rgb(240, 234, 234);
+    margin: 10px;
+    justify-content: space-between;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 150%;
 }
 
-.right-column {
-    grid-area: right-column;
-}
-
-
-
-#wrapper {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 3em 30em;
-    grid-template-areas:
-        "navigation navigation"
-        "left-column right-column";
-    gap: 10px;
+.about-container {
+    background-color: #848B79;
+    height: 80vh;
 }
