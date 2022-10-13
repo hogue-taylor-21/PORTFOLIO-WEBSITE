@@ -1,20 +1,46 @@
 .navigation-bar {
-    background-color: #848B79;
-    height: 50px;
+    justify-content: center;
+    background-color: #ececec;
+    height: 80px;
+    display: flex;
+    padding: 30px;
 }
 
-A {
-    color: rgb(240, 234, 234);
-    margin: 10px;
-    justify-content: space-between;
+.nav-link {
     text-decoration: none;
-    display: inline-block;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 150%;
+    word-spacing: 2em;
+    padding: 25px;
+    font-size: x-large;
+    color: black;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .about-container {
-    background-color: #848B79;
+    background-color: #ececec;
     height: 80vh;
+}
+
+#profile_pic {
+    height: 300px;
+    width: 300px;
+    justify-content: center;
+}
+
+.about--content {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.about--content--intro {
+    display: flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
+
+.intro-name {
+    font-size: 100px;
+    justify-content: center;
 }
